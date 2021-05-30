@@ -1,6 +1,6 @@
 const text = document.getElementById("input");
 const search = document.getElementById("search");
-const apiKey = "be925f32-b992-41b3-a3fb-57036e339bd3";
+const apiKey = "<your-api-key>";
 const result = document.getElementById("results");
 const loading = document.getElementById("loading");
 const notFound = document.getElementById('not__found');
