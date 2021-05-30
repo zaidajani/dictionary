@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: courgette;
+  font-size: 30px;
+  color: white;
+  background: #553c9a;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.navText {
+  width: 1152px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.body {
+  padding: 1rem 0;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.input__wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #000000;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  min-width: 400px;
+}
+
+button {
+  background: #553c9a;
+  color: #fff;
+  height: 100%;
+  font-size: 16px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.text {
+  text-align: center;
+  margin-top: 15%;
+  font-family: muli;
+}
+
+.results {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family:  'Muli', sans-serif;
+  color: #2D3748;
+}
+
+.loading {
+  display: none;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family:  'Muli', sans-serif;
+  color: #2D3748;
+}
+
+@media screen and (max-width: 728px) {
+  input {
+    min-width: 170px;
+  }
+}
